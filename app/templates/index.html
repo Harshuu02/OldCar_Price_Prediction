@@ -1,0 +1,81 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="hero-card mx-auto shadow-lg">
+  <h1 class="text-center mb-4">🚗 Predict Your Car's Price</h1>
+  <form method="POST" action="/predict">
+    <div class="row g-3">
+
+      <div class="col-md-6">
+        <label class="form-label">Brand</label>
+        <input type="text" name="brand" class="form-control" placeholder="Maruti, Hyundai..." required>
+      </div>
+
+      <div class="col-md-6">
+        <label class="form-label">Year</label>
+        <input type="number" name="year" class="form-control" required>
+      </div>
+
+      <div class="col-md-6">
+        <label class="form-label">Kilometers Driven</label>
+        <input type="number" name="km_driven" class="form-control" required>
+      </div>
+
+      <div class="col-md-6">
+        <label class="form-label">Fuel Type</label>
+        <select name="fuel_type" class="form-select" required>
+          <option>Petrol</option>
+          <option>Diesel</option>
+          <option>CNG</option>
+          <option>Electric</option>
+        </select>
+      </div>
+
+      <div class="col-md-6">
+        <label class="form-label">Transmission</label>
+        <select name="transmission" class="form-select" required>
+          <option>Manual</option>
+          <option>Automatic</option>
+        </select>
+      </div>
+
+      <div class="col-md-6">
+        <label class="form-label">Owner</label>
+        <select name="owner" class="form-select" required>
+          <option>First</option>
+          <option>Second</option>
+          <option>Third</option>
+          <option>Fourth & Above</option>
+        </select>
+      </div>
+
+      <div class="col-md-6">
+        <label class="form-label">Mileage (km/l or km/kg)</label>
+        <input type="number" step="0.1" name="mileage" class="form-control">
+      </div>
+
+      <div class="col-md-6">
+        <label class="form-label">Engine (CC)</label>
+        <input type="number" name="engine" class="form-control">
+      </div>
+
+      <div class="col-md-6">
+        <label class="form-label">Power (bhp)</label>
+        <input type="number" step="0.1" name="power" class="form-control">
+      </div>
+
+      <div class="col-md-6">
+        <label class="form-label">Seats</label>
+        <input type="number" name="seats" class="form-control" value="5">
+      </div>
+
+    </div>
+
+    <div class="text-center mt-4">
+      <button type="submit" class="btn btn-primary btn-lg">
+        <i class="fas fa-rocket me-2"></i> Predict Price
+      </button>
+    </div>
+  </form>
+</div>
+{% endblock %}

@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="hero-card mx-auto shadow-lg text-center">
+  <h2 class="mb-3">💰 Estimated Price</h2>
+  <h3 class="text-success mb-3">₹ {{ predicted_price }} Lakh</h3>
+
+  <p class="mb-3">
+    <strong>{{ brand }}</strong> ({{ year }}) <br>
+    {{ fuel_type }}, {{ transmission }}, {{ owner }} owner <br>
+    {{ km_driven }} km driven, {{ mileage }} km/l, {{ engine }} CC, {{ power }} bhp, {{ seats }} seats
+  </p>
+
+  <a href="/" class="btn btn-secondary btn-lg">
+    <i class="fas fa-arrow-left me-2"></i> Predict Another
+  </a>
+</div>
+{% endblock %}
