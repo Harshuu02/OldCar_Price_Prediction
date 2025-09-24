@@ -12,17 +12,23 @@
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Harshuu02/old_car_price_prediction.git
-   cd old_car_price_prediction
+   git clone https://github.com/Harshuu02/OldCar_Price_Prediction.git
+   cd OldCar_Price_Prediction
 
-   python -m venv venv
-   source venv/bin/activate     # Mac/Linux
    
-   venv\Scripts\activate        # Windows
    
-   pip install -r requirements.txt
+2. Create the Envoronment:
 
+       python -m venv venv
+       source venv/bin/activate     # Mac/Linux
+   
+       venv\Scripts\activate        # Windows
 
+3. Install the Requirements:
+
+             pip install -r requirements.txt
+
+    
 ---
 
 ## 🧹 Data Preprocessing
