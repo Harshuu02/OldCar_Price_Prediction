@@ -1,6 +1,4 @@
 import pandas as pd
-import numpy as np
-import re
 
 class Preprocessor:
     def __init__(self, current_year=2025):

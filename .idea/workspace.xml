@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0004b6ef-0a71-4d80-a59f-e26af3d39c47" name="Changes" comment="README.md Updated">
+    <list default="true" id="0004b6ef-0a71-4d80-a59f-e26af3d39c47" name="Changes" comment="remove large model file">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/car_preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/car_preprocess.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +155,23 @@
       <option name="project" value="LOCAL" />
       <updated>1758726105769</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="README.md">
+      <option name="closed" value="true" />
+      <created>1758726472056</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1758726472056</updated>
+    </task>
+    <task id="LOCAL-00008" summary="remove large model file">
+      <option name="closed" value="true" />
+      <created>1758726676649</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1758726676649</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -183,6 +202,8 @@
     <MESSAGE value="base html update" />
     <MESSAGE value="#" />
     <MESSAGE value="README.md Updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="README.md Updated" />
+    <MESSAGE value="README.md" />
+    <MESSAGE value="remove large model file" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove large model file" />
   </component>
 </project>
