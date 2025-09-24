@@ -17,21 +17,15 @@ The project includes **data preprocessing, model training, and a Flask web appli
 
    python -m venv venv
    source venv/bin/activate     # Mac/Linux
+   
    venv\Scripts\activate        # Windows
    
    pip install -r requirements.txt
 
 
-⸻
-⸻
-⸻
-⸻
-⸻
-⸻
-⸻
-⸻
+---
 
-🧹 Data Preprocessing
+## 🧹 Data Preprocessing
 
 	•	Cleans raw dataset (train-data.csv)
 	•	Extracts numeric values from Mileage, Engine, and Power
@@ -41,16 +35,9 @@ The project includes **data preprocessing, model training, and a Flask web appli
 
     See car_preprocess.py
 
-⸻
-⸻
-⸻
-⸻
-⸻
-⸻
-⸻
-⸻
+---
 
-🤖 Model Training
+## 🤖 Model Training
 
     python src/train_model.py
 
@@ -62,16 +49,9 @@ The project includes **data preprocessing, model training, and a Flask web appli
 
     •	Saves trained model to models/car_price_model.pkl
 
-⸻
-⸻
-⸻
-⸻
-⸻
-⸻
-⸻
-⸻
+---
 
-🌐 Web Application
+## 🌐 Web Application
 
 1.	Start the Flask app:
 
@@ -83,32 +63,18 @@ The project includes **data preprocessing, model training, and a Flask web appli
 
 3.	Enter car details → Click Predict Price → Get instant estimated price.
 
-⸻
-⸻
-⸻
-⸻
-⸻
-⸻
-⸻
-⸻
+---
 
-🎨 UI Features
+## 🎨 UI Features
 
 	•	Built with Bootstrap 5 + custom CSS
 	•	Responsive design
 	•	Modern input forms with hover/focus effects
 	•	Clear results with gradient highlights
 
-⸻
-⸻
-⸻
-⸻
-⸻
-⸻
-⸻
-⸻
+---
 
-📊 Example Prediction
+## 📊 Example Prediction
 
     Input:
 	    •	Year: 2017
@@ -123,35 +89,17 @@ The project includes **data preprocessing, model training, and a Flask web appli
 
     💰 Estimated Price: ₹ 4.75 Lakh
 
-⸻
-⸻
-⸻
-⸻
-⸻
-⸻
-⸻
-⸻
+---
 
-🚀 Future Improvements
+## 🚀 Future Improvements
 
 	•	Add visualizations (price distribution, feature importance)
 	•	Deploy on Heroku / Render / Railway
 	•	Add login & user history of predictions
 	•	Support API endpoint for external usage
 
-⸻
-⸻
-⸻
-⸻
-⸻
-⸻
-⸻
-⸻
-
-📝 License
-
-This project is for educational purposes only.
-
 ---
 
-👉 Do you want me to also generate a **requirements.txt** for you (based on sklearn, Flask, pandas, etc.) so everything is plug-and-play?
+## 📝 License
+
+This project is for educational purposes only.
