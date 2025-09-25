@@ -1,6 +1,6 @@
 # 🚗 Old Car Price Prediction
 
-#### A machine learning web app totally build by using of ChatGPT-5 free model that predicts the **selling price of used cars** based on features such as year, kilometers driven, fuel type, transmission, ownership, mileage, engine, power, and seats.  
+#### A machine learning web app that predicts the **selling price of used cars** based on features such as year, kilometers driven, fuel type, transmission, ownership, mileage, engine, power, and seats.  
 
 #### The project includes **data preprocessing, model training, and a Flask web application with a modern UI**.
 
