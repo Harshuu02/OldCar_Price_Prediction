@@ -19,10 +19,20 @@
    
 2. Create the Envoronment:
 
-       python -m venv venv
-       source venv/bin/activate     # Mac/Linux
-   
-       venv\Scripts\activate        # Windows
+    ### On macOS / Linux (use Python 3)
+	python3 -m venv venv
+	source venv/bin/activate     # macOS / Linux
+
+	### On Windows (PowerShell)
+	venv\Scripts\Activate.ps1
+	### Or on Windows (CMD)
+	venv\Scripts\activate.bat
+
+If the `python3` command is not available on your system, install Python 3 (recommended via Homebrew on macOS):
+
+	brew install python
+
+After installing, retry the `python3 -m venv venv` command.
 
 3. Install the Requirements:
 
